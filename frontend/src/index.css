@@ -1,0 +1,143 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1em;
+  border: 0px;
+}
+
+.header {
+  max-width: 100%;
+  background-color: #22B14C;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.header > h1 {
+  font-size: 2em;
+}
+.imagens {
+  width: 50px;
+  height: 50px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10%;
+  margin-left: 2%;
+  color: #22B14C;
+}
+
+.perfil > button {
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #22B14C;
+  padding: 0px 20px 0px 20px;
+  margin: 10px 0px 10px 0px;
+  width: 100%;
+}
+
+#faculHub {
+  width: 100%;
+  border-left: 2px solid #22B14C;
+  border-right: 2px solid #22B14C;
+}
+
+.titlePubli {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 2px solid #c4c4c4;
+}
+
+#principal {
+  display: flex;
+}
+
+#tudo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid #c4c4c4;
+  margin: 1% 2% 0% 2%;
+  align-items: center;
+}
+
+#tudo > h2 {
+  font-size: 2em;
+}
+
+#eletromecanica {
+  width: 300px;
+}
+
+.flechaChat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftMain {
+  display: flex;
+  align-items: center;
+}
+
+.leftMain > p {
+  margin: 0px 0px 0px 10px;
+}
+
+/* Estilos para o Modal de Login */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.input-error {
+  border: 2px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  border: 1px solid #22B14C;
+  background: transparent;
+  color: #22B14C;
+}
+
+.enter-btn {
+  background-color: #22B14C;
+  color: white;
+  border: none;
+}
+.comentar{
+  background-color: #C4C4C4;
+  color: #000000;
+  align-items: flex-start;
+
+}
